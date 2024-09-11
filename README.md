@@ -7,7 +7,9 @@ This project involves analyzing sales and performance data for Atliq Hardware, a
 Atliq Hardware’s distribution network consists of three main channels:
 
 Retailers
+
 Direct Sales
+
 Distributors
 
 #Problem Statement:
@@ -19,8 +21,11 @@ Atliq Hardware, a leading computer hardware producer in India and other countrie
 The key objectives of this project are:
 
 Analyzing sales performance across different products, categories, and regions.
+
 Identifying top-performing products based on sales and gross price.
+
 Understanding the cost structure by analyzing manufacturing costs and pre-invoice deductions.
+
 Tracking monthly sales trends and customer behavior.
 
 #Dataset Description
@@ -28,10 +33,15 @@ Tracking monthly sales trends and customer behavior.
 The dataset is divided into several tables, including:
 
 dim_customer: Contains customer-related information.
+
 dim_product: Storing product-related data.
+
 fact_gross_price: Holding gross price details for each product.
+
 fact_manufacturing_cost: Recording the production costs of each product.
+
 fact_pre_invoice_deductions: Encompassing pre-invoice deduction information for each product.
+
 fact_sales_monthly: Containing monthly sales data for each product.
 
 #Key SQL Queries and Analysis
@@ -46,7 +56,9 @@ Customer Behavior Analysis: Understanding customer preferences and buying patter
 Monthly Sales Trends: Tracking sales trends for each product on a month-to-month basis.
 
 #Tools & Technologies
+
 SQL (Structured Query Language)
+
 Database Management System: MySQL
 
 #Conclusion
