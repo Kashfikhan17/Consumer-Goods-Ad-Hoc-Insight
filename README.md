@@ -28,15 +28,20 @@ Understanding the cost structure by analyzing manufacturing costs and pre-invoic
 
 Tracking monthly sales trends and customer behavior.
 
-#Dataset Description
+# Dataset Description
 
 The dataset is divided into several tables, including:
 
 1.dim_customer: Contains customer-related information.
+
 2.dim_product: Storing product-related data.
+
 3.fact_gross_price: Holding gross price details for each product.
+
 4.fact_manufacturing_cost: Recording the production costs of each product.
+
 5.fact_pre_invoice_deductions: Encompassing pre-invoice deduction information for each product.
+
 6.fact_sales_monthly: Containing monthly sales data for each product.
 
 # Key SQL Queries and Analysis
@@ -44,10 +49,15 @@ The dataset is divided into several tables, including:
 This project involved writing SQL queries to perform the following analyses:
 
 1.Sales Performance Analysis: Querying total sales, average sales, and monthly sales performance for each product.
+
 2.Gross Price Analysis: Exploring product prices and analyzing price variations across different regions or time periods.
+
 3.Manufacturing Cost Analysis: Evaluating production costs to identify high-cost products.
+
 4.Pre-Invoice Deduction Analysis: Investigating the impact of pre-invoice deductions on final product pricing.
+
 5.Customer Behavior Analysis: Understanding customer preferences and buying patterns.
+
 6.Monthly Sales Trends: Tracking sales trends for each product on a month-to-month basis.
 
 # Tools & Technologies
